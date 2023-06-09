@@ -1,19 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { formatPrice } from '../../utils';
-// Styles
 import './Footer.css';
-// Icons
 import { MdNavigateBefore, MdNavigateNext } from 'react-icons/md';
 
-/*
- * TODO
- *
- * Requirements:
- * - use React hooks if needed
- * - use performance optimization if needed
- * 
- */ 
+
 const Footer = ({
   totalPrice = 0,
   disablePrev = true,

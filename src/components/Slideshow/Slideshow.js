@@ -1,16 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// Styles
 import './Slideshow.css';
 
-/*
- * TODO
- *
- * Requirements:
- * - use React hooks if needed
- * - use performance optimization if needed
- * 
- */ 
+
 const Slideshow = ({
   items = [],
   index = 0,
